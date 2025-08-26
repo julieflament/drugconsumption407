@@ -42,3 +42,29 @@ The dataset measures usage frequency on a **0–6 scale**:
   - For rare/illegal drugs (heroin, VSA, crack), education has less effect.  
 
 ---
+
+## Repository Structure
+data407-drug-consumption/
+│
+├── README.md       <- overview of the project
+├── analysis.R      <- full R script with data cleaning, plots, regressions
+└── final-report.pdf      <- final written report
+
+
+## 🚀 How to Run
+
+1. Clone this repo:
+
+   ```bash
+   git clone https://github.com/YOURUSERNAME/data407-drug-consumption.git
+   cd data407-drug-consumption
+2. Open analysis.R in RStudio or run in R.
+3. Install required packages if missing:
+   install.packages(c("dplyr", "ggplot2", "tidyr", "reshape2"))
+4. Make sure the dataset (drug_consumption.data) is placed in the data/ folder,
+or download it directly from the UCI Repository.
+
+## 📖 References
+
+- UCI Machine Learning Repository: [Drug Consumption (Quantified)](https://archive.ics.uci.edu/ml/datasets/Drug+Consumption+%28quantified%29)
+
